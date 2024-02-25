@@ -73,3 +73,17 @@ print(f"Predicted Answer: {pred.answer}")
 uncompiled_math = MathModule()
 print('Uncompiled answer')
 print(uncompiled_math(my_question).answer)
+
+
+# [Example({'question': 'What is 193+934', 'answer': '1127'}) (input_keys={'question'}), Example({'question': 'What is 565+916', 'answer': '1481'}) (input_keys={'question'}), Example({'question': 'What is 80+920', 'answer': '1000'}) (input_keys={'question'}), Example({'question': 'What is 528+254', 'answer': '782'}) (input_keys={'question'}), Example({'question': 'What is 674+840', 'answer': '1514'}) (input_keys={'question'}), Example({'question': 'What is 788+330', 'answer': '1118'}) (input_keys={'question'}), Example({'question': 'What is 520+735', 'answer': '1255'}) (input_keys={'question'}), Example({'question': 'What is 630+852', 'answer': '1482'}) (input_keys={'question'}), Example({'question': 'What is 835+76', 'answer': '911'}) (input_keys={'question'}), Example({'question': 'What is 27+128', 'answer': '155'}) (input_keys={'question'})]
+# 100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:00<00:00, 564.72it/s]
+# Bootstrapped 1 full traces after 10 examples in round 0.
+# generate_answer = ChainOfThought(Signature(question -> answer
+#     instructions='Answer questions about basic arithmetic'
+#     question = Field(annotation=str required=True json_schema_extra={'desc': 'a question about arithmetic', '__dspy_field_type': 'input', 'prefix': 'Question:'})
+#     answer = Field(annotation=str required=True json_schema_extra={'desc': 'one number', '__dspy_field_type': 'output', 'prefix': 'Answer:'})
+# ))
+# Question: 99+1234
+# Predicted Answer: 1333
+# Uncompiled answer
+# 1021
