@@ -3,21 +3,12 @@ import dspy
 from dspy.teleprompt import LabeledFewShot
 import json
 from dspy import Example
-import uuid
-# Ollam is now compatible with OpenAI APIs
-# 
-# To get this to work you must include `model_type='chat'` in the `dspy.OpenAI` call. 
-# If you do not include this you will get an error. 
-# 
-# I have also found that `stop='\n\n'` is required to get the model to stop generating text after the ansewr is complete. 
-# At least with mistral.
 
 ollama_model = dspy.OpenAI(api_base='http://localhost:11434/v1/', api_key='ollama', model='mistral:7b-instruct-v0.2-q6_K', stop='\n\n', model_type='chat')
 
 # This sets the language model for DSPy.
 dspy.settings.configure(lm=ollama_model)
 
-# This is not required but it helps to understand what is happening
 
 with open('questions.json') as f:
     questions = json.load(f)
@@ -34,7 +25,6 @@ class MathQA(dspy.Signature):
 
     question = dspy.InputField(desc="a question about arithmetic")
     answer = dspy.OutputField(desc="one number")
-
 
 class MathModule(dspy.Module):
     def __init__(self):
