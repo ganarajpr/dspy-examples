@@ -61,7 +61,7 @@ print(compiled_qa)
 
 
 # Ask any question you like to this simple RAG program.
-my_question = "What is 63+2?"
+my_question = "99+1234"
 
 # Get the prediction. This contains `pred.context` and `pred.answer`.
 pred = compiled_qa(my_question)
@@ -69,3 +69,7 @@ pred = compiled_qa(my_question)
 # Print the contexts and the answer.
 print(f"Question: {my_question}")
 print(f"Predicted Answer: {pred.answer}")
+
+uncompiled_math = MathModule()
+print('Uncompiled answer')
+print(uncompiled_math(my_question).answer)
