@@ -5,6 +5,7 @@ import json
 from dspy import Example
 
 ollama_model = dspy.OpenAI(api_base='http://localhost:11434/v1/', api_key='ollama', model='mistral:7b-instruct-v0.2-q6_K', stop='\n\n', model_type='chat')
+# ollama_model = dspy.OpenAI(api_base='http://localhost:11434/v1/', api_key='ollama', model='gemma', stop='\n\n', model_type='chat')
 
 # This sets the language model for DSPy.
 dspy.settings.configure(lm=ollama_model)
@@ -51,7 +52,7 @@ print(compiled_qa)
 
 
 # Ask any question you like to this simple RAG program.
-my_question = "99+1234"
+my_question = "99+1021"
 
 # Get the prediction. This contains `pred.context` and `pred.answer`.
 pred = compiled_qa(my_question)
@@ -64,7 +65,7 @@ uncompiled_math = MathModule()
 print('Uncompiled answer')
 print(uncompiled_math(my_question).answer)
 
-print(ollama_model.inspect_history(3))
+print(ollama_model.inspect_history(1))
 
 
 # [Example({'question': 'What is 193+934', 'answer': '1127'}) (input_keys={'question'}), Example({'question': 'What is 565+916', 'answer': '1481'}) (input_keys={'question'}), Example({'question': 'What is 80+920', 'answer': '1000'}) (input_keys={'question'}), Example({'question': 'What is 528+254', 'answer': '782'}) (input_keys={'question'}), Example({'question': 'What is 674+840', 'answer': '1514'}) (input_keys={'question'}), Example({'question': 'What is 788+330', 'answer': '1118'}) (input_keys={'question'}), Example({'question': 'What is 520+735', 'answer': '1255'}) (input_keys={'question'}), Example({'question': 'What is 630+852', 'answer': '1482'}) (input_keys={'question'}), Example({'question': 'What is 835+76', 'answer': '911'}) (input_keys={'question'}), Example({'question': 'What is 27+128', 'answer': '155'}) (input_keys={'question'})]
