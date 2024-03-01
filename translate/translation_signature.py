@@ -2,6 +2,6 @@ import dspy
 
 class Translation(dspy.Signature):
     """Translate to English"""
-
-    sanskrit = dspy.InputField(desc="a verse in sanskrit")
+    lang = dspy.InputField(desc="language to translate from")
+    original = dspy.InputField(desc="a sentence for translation")
     english = dspy.OutputField(desc="translation in english")

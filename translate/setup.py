@@ -17,6 +17,6 @@ def import_json(filename):
 def create_examples(data, inputs):
     output = []
     for example in data:
-        output.append(Example(base=example).with_inputs(inputs))
+        output.append(Example(base=example).with_inputs(*inputs))
     return output
     

@@ -1,19 +1,23 @@
 {
   "inputs": [
     {
-      "kannada": "ಕುವೆಂಪು ಕರ್ನಾಟಕದ ಅತ್ಯಂತ ಪ್ರಸಿದ್ಧ ಕವಿಗಳಲ್ಲಿ ಒಬ್ಬರು.",
+      "lang": "kannada",
+      "original": "ಕುವೆಂಪು ಕರ್ನಾಟಕದ ಅತ್ಯಂತ ಪ್ರಸಿದ್ಧ ಕವಿಗಳಲ್ಲಿ ಒಬ್ಬರು.",
       "english": "Kuvempu is one of the most famous poets from Karnataka."
     },
     {
-      "kannada": "ವಂಶವೃಕ್ಷವು ಪ್ರೀತಿ ಮತ್ತು ನಷ್ಟ, ದುರಂತ ಮತ್ತು ವಿಜಯದ ಸೂಕ್ಷ್ಮ ಪರಿಶೋಧನೆಯಾಗಿದೆ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ, ಐತಿಹಾಸಿಕ ಮತ್ತು ಸಾಂಸ್ಕೃತಿಕ ಒಳನೋಟಗಳನ್ನು ಮನಸ್ಸಿನಲ್ಲಿಟ್ಟುಕೊಂಡು ಬರೆಯಲಾಗಿದೆ",
+      "lang": "kannada",
+      "original": "ವಂಶವೃಕ್ಷವು ಪ್ರೀತಿ ಮತ್ತು ನಷ್ಟ, ದುರಂತ ಮತ್ತು ವಿಜಯದ ಸೂಕ್ಷ್ಮ ಪರಿಶೋಧನೆಯಾಗಿದೆ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ, ಐತಿಹಾಸಿಕ ಮತ್ತು ಸಾಂಸ್ಕೃತಿಕ ಒಳನೋಟಗಳನ್ನು ಮನಸ್ಸಿನಲ್ಲಿಟ್ಟುಕೊಂಡು ಬರೆಯಲಾಗಿದೆ",
       "english": "Vamshavriksha is a nuanced exploration of love and loss, tragedy and triumph, and is written with spiritual, historical and cultural insights in mind."
     },
     {
-      "kannada": "ಅಕ್ಕ ಸಂಘಟನೆಯು ಕನ್ನಡ ಭಾಷೆಯನ್ನು ಕಲಿಸುವಲ್ಲಿ ಮತ್ತು ಅಮೆರಿಕಾದಲ್ಲಿ ಸ್ಥಳೀಯ ಸಂಸ್ಕೃತಿಯನ್ನು ಉತ್ತೇಜಿಸುವಲ್ಲಿ ನಿರ್ಣಾಯಕ ಪಾತ್ರವನ್ನು ವಹಿಸುತ್ತಿದೆ.",
+      "lang": "kannada",
+      "original": "ಅಕ್ಕ ಸಂಘಟನೆಯು ಕನ್ನಡ ಭಾಷೆಯನ್ನು ಕಲಿಸುವಲ್ಲಿ ಮತ್ತು ಅಮೆರಿಕಾದಲ್ಲಿ ಸ್ಥಳೀಯ ಸಂಸ್ಕೃತಿಯನ್ನು ಉತ್ತೇಜಿಸುವಲ್ಲಿ ನಿರ್ಣಾಯಕ ಪಾತ್ರವನ್ನು ವಹಿಸುತ್ತಿದೆ.",
       "english": "AKKA organization is also playing a crucial role in teaching Kannada language and promoting native culture in the America."
     },
     {
-      "kannada": "ಐಸಿಐಸಿಐ ಬ್ಯಾಂಕ್, ರಿಲಯನ್ಸ್ ಇಂಡಸ್ಟ್ರೀಸ್ ಷೇರುಗಳು ಇಂದು ನಿಫ್ಟಿ ಲಾಭಕ್ಕೆ ಹೆಚ್ಚಿನ ಕೊಡುಗೆ ನೀಡಿವೆ.",
+      "lang": "kannada",
+      "original": "ಐಸಿಐಸಿಐ ಬ್ಯಾಂಕ್, ರಿಲಯನ್ಸ್ ಇಂಡಸ್ಟ್ರೀಸ್ ಷೇರುಗಳು ಇಂದು ನಿಫ್ಟಿ ಲಾಭಕ್ಕೆ ಹೆಚ್ಚಿನ ಕೊಡುಗೆ ನೀಡಿವೆ.",
       "english": "ICICI Bank, Reliance Industries stocks biggest contributors to Nifty gains today."
     }
   ]

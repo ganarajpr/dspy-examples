@@ -7,6 +7,6 @@ class TranslationModule(dspy.Module):
 
         self.generate_answer = dspy.ChainOfThought(Translation)
     
-    def forward(self, sanskrit):
-        prediction = self.generate_answer(sanskrit=sanskrit)
+    def forward(self, original, lang):
+        prediction = self.generate_answer(original=original, lang=lang)
         return dspy.Prediction(english=prediction.english)
