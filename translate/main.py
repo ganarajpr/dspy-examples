@@ -13,7 +13,7 @@ translations = import_json(json_file)
 examples = create_examples(translations['inputs'],'sanskrit')
 
 print(examples)
-print(dspy.Predict('What is your name?'))
+print(ollama_model('What is your name?'))
 
 
 

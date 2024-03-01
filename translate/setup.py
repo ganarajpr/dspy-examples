@@ -6,6 +6,7 @@ def init_ollama_model(model, model_type):
     ollama_model = dspy.OpenAI(api_base='http://localhost:11434/v1/', api_key='ollama', 
                                model=model, stop='\n\n', model_type=model_type)
     dspy.settings.configure(lm=ollama_model)
+    return ollama_model
 
 
 def import_json(filename):
