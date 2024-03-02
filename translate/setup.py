@@ -20,3 +20,10 @@ def create_examples(data, inputs):
         output.append(Example(base=example).with_inputs(*inputs))
     return output
     
+
+# Given the following attributes of a product
+# 47,44,45,40,38,L,One size,W12,W3,W9.5,XL,XXL
+# which belong to the category
+# Safety > Personal Protection & Clothing > Clothing & Workwear > Arc Flash, Heat Resistant, & Welding ClothingSafety Overshoes
+
+#Can you provide these attributes in a logical order . Respond back with only the attributes
